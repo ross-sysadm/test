@@ -3,7 +3,7 @@ services:
 
 before_install:
   - docker build -t zimbbra .
-  - docker run -d -p 0.0.0.0:80:8080 zimbra
+  - docker run -d zimbra
   - docker ps -a
 
 deploy:
