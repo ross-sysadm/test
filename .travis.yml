@@ -2,8 +2,8 @@ services:
   - docker
 
 before_install:
-  - docker build -t zimbbra .
-  - docker run -d zimbra
+  - docker build -t zabbix .
+  - docker run -d zabbix
   - docker ps -a
 
 deploy:
